@@ -1,0 +1,32 @@
+{
+    "name": "node-hid-async",
+    "author": "HGM Automotive Electronics",
+    "homepage": "https://github.com/hgmelectronics/node-hid-async",
+    "description": "Async wrapper for node-hid",
+    "main": "./lib/index.js",
+    "typings": "./lib/index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hgmelectronics/node-hid-async.git"
+    },
+    "scripts": {
+        "prepare": "tsc"
+    },
+    "license": "MIT",
+    "version": "2.0.1",
+    "dependencies": {
+        "node-hid": "^2.0.0-0",
+        "rxjs": "^6.6.3"
+    },
+    "devDependencies": {
+        "@types/node": "^15.12.4",
+        "@types/node-hid": "^1.3.0",
+        "typescript": "^4.0.5"
+    },
+    "browser": {
+        "child_process": false,
+        "events": false,
+        "path": false,
+        "process": false
+    }
+}
